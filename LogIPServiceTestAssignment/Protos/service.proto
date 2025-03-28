@@ -1,0 +1,60 @@
+﻿syntax = "proto3";
+
+option csharp_namespace = "LogIPServiceTestAssignment";
+
+package logIPService;
+
+service LogCollectionService {
+  // Log a user event
+  rpc LogEvent (LogRequest) returns (LogResponse);
+  // Find users whose content partially matches the input string
+  rpc FindUsersByIp (FindUsersByIpRequest) returns (FindUsersByIpResponse);
+  // Find all IP addresses associated with a specific user
+  rpc FindUserIPs (FindUserIPsRequest) returns (FindUserIPsResponse);
+  // Find the last connection time and IP address for a specific user
+  rpc FindLastUserConnection (FindLastUserConnectionRequest) returns (FindLastUserConnectionResponse);
+}
+
+// Request/Response for LogEvent
+message LogRequest {
+  int64 userId = 1;
+  string ip = 2;
+}
+
+message LogResponse {
+  bool success = 1;
+  string exception = 2;
+}
+
+// Request/Response for FindUsersByIp
+message FindUsersByIpRequest {
+  string content = 1; // Partial input string to search for
+}
+
+message FindUsersByIpResponse {
+  repeated int64 userIds = 1;
+}
+//Obsolete
+message UserLog {
+  int64 userId = 1;
+  repeated string userIps = 2;
+}
+
+// Request/Response for FindUserIPs
+message FindUserIPsRequest {
+  int64 userId = 1;
+}
+
+message FindUserIPsResponse {
+  repeated string ips = 1;
+}
+
+// Request/Response for FindLastUserConnection
+message FindLastUserConnectionRequest {
+  int64 userId = 1; // User ID to search for
+}
+
+message FindLastUserConnectionResponse {
+  string lastIp = 1; // Last IP address used by the user
+  string lastConnectionTime = 2; // Timestamp of the last connection
+}

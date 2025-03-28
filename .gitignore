@@ -1,0 +1,8 @@
+﻿.*
+!.git*
+!.editorconfig
+!.env.example
+
+# .NET/C# build folders
+[Bb]in/
+[Oo]bj/

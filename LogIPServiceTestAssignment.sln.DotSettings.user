@@ -1,0 +1,22 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/CodeInspection/ExcludedFiles/FilesAndFoldersToSkip2/=7020124F_002D9FFC_002D4AC3_002D8F3D_002DAAB8E0240759_002Ff_003ABackgroundService_002Ecs_002Fl_003A_002E_002E_003F_002E_002E_003F_002E_002E_003FAppDataRidercfg_003Fresharper_002Dhost_003FSourcesCache_003F99e8bc77d296dbfa0f7a2456d5ae46ce4fe6113f975e32755c54f64bd5a39c_003FBackgroundService_002Ecs/@EntryIndexedValue">ForceIncluded</s:String>
+	<s:String x:Key="/Default/CodeInspection/ExcludedFiles/FilesAndFoldersToSkip2/=7020124F_002D9FFC_002D4AC3_002D8F3D_002DAAB8E0240759_002Ff_003ACancellationTokenSource_002Ecs_002Fl_003A_002E_002E_003F_002E_002E_003F_002E_002E_003FAppDataRidercfg_003Fresharper_002Dhost_003FSourcesCache_003F558c1d46e1e21d2e78ee2ab67a674f6927bf95355b2f245f35d74bb5ec0f92_003FCancellationTokenSource_002Ecs/@EntryIndexedValue">ForceIncluded</s:String>
+	<s:String x:Key="/Default/CodeInspection/ExcludedFiles/FilesAndFoldersToSkip2/=7020124F_002D9FFC_002D4AC3_002D8F3D_002DAAB8E0240759_002Ff_003ACancellationToken_002Ecs_002Fl_003A_002E_002E_003F_002E_002E_003F_002E_002E_003FAppDataRidercfg_003Fresharper_002Dhost_003FSourcesCache_003F2565b9d99fdde488bc7801b84387b2cc864959cfb63212e1ff576fc9c6bb7e_003FCancellationToken_002Ecs/@EntryIndexedValue">ForceIncluded</s:String>
+	<s:String x:Key="/Default/CodeInspection/ExcludedFiles/FilesAndFoldersToSkip2/=7020124F_002D9FFC_002D4AC3_002D8F3D_002DAAB8E0240759_002Ff_003AWebApplicationFactory_002Ecs_002Fl_003A_002E_002E_003F_002E_002E_003F_002E_002E_003FAppDataRidercfg_003Fresharper_002Dhost_003FSourcesCache_003F255f916e5a2d424ef01b291afc761e049b367614440bf4b216824ec479064b_003FWebApplicationFactory_002Ecs/@EntryIndexedValue">ForceIncluded</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=514d841f_002Dee67_002D47c0_002D86e1_002D737cde75bea5/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="ExecuteAsync_ShouldProcessMessages #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;Or&gt;&#xD;
+    &lt;ProjectFile&gt;9ED56216-32D5-4B53-8628-CEB388261846/f:LogServiceKafkaConsumerTests.cs&lt;/ProjectFile&gt;&#xD;
+    &lt;TestAncestor&gt;&#xD;
+      &lt;TestId&gt;xUnit::9ED56216-32D5-4B53-8628-CEB388261846::net9.0::LogIPServiceTests.LogServiceUnitTests.LogEventShouldSaveLogEntryKafka&lt;/TestId&gt;&#xD;
+    &lt;/TestAncestor&gt;&#xD;
+    &lt;ProjectFile&gt;9ED56216-32D5-4B53-8628-CEB388261846/f:LogServiceUnitTests.cs&lt;/ProjectFile&gt;&#xD;
+  &lt;/Or&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=a0b3199b_002D2000_002D436f_002D8500_002Dd8bf2c36604f/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="ExecuteAsync_ShouldProcessMessages" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::9ED56216-32D5-4B53-8628-CEB388261846::net9.0::LogIPServiceTests.Mock.LogServiceKafkaConsumerTests.ExecuteAsync_ShouldProcessMessages&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	
+	</wpf:ResourceDictionary>
